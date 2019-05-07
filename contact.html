@@ -18,8 +18,9 @@
 		<h1 class="text-xl">
 		<div class="wrapper">
 				<div id="logo">
-					<a href="index.html"></a>
-					<img class="mx-8" width="125" src="assets/images/logo.png" alt="push through fitness logo">
+					<a href="index.html">
+						<img class="mx-8" width="125" src="assets/images/logo.png" alt="push through fitness logo">
+					</a>
 				</div><!--logo-->
 		</h1>
 
@@ -48,30 +49,35 @@
 			</ul>
 		</nav>
 	</header>
-	<main>
-		<!-- Video -->
-			  <article class="parallax-container">
-			    <header class="parallax">
-			      <div class="video-wrapper">
-			        <h1 class="leading-none p-4 text-white text-3xl uppercase video-title md:p-8 md:text-5xl">
-			          Push Through Fitness
-			        </h1>
-			        <video autoplay loop muted class="w-full">
-			          <source src="assets/videos/video.mp4" type="video/mp4" />Your browser does not support the video tag.
-			          <source src="assets/videos/video.mp4" type="video/mp4" />Your browser does not support the video tag.
-			        </video>
-			      </div>
-			    </header>
-			  </article>
-			</main>   
 
+	<main class="justify-center">
+		<div class="mx-auto content-center w-full max-w-md">
+		  <form class="bg-black shadow-md rounded px-4 pt-6 pb-8 mb-4" action="assets/form/form.php">
 
-		<div class="flex justify-center py-16 flex-wrap h-48">
-		  	<div class="w-1/3 p-2">
-		    
-				<p class="text-center text-white object-contain">
-				 <strong>To Obtain a Stronger BODY, a Healthier MIND, and Happier SPIRIT, it takes hard work. There is no way around it, but to PUSH THROUGH!</strong></p>
+		    <div class="mb-4">
+		      
+		      <label for="name">Name</label>
+		      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline bg-grey" id="name" type="text" placeholder="Name">
+		    </div>
+
+		    <div class="mb-4">
+		      <label for="name">Email</label>
+		      	<input class="shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline bg-grey" id="email" type="text" placeholder="Email">
+		    </div>
+
+			 <div class="mb-4">
+		   		<label for="name">Message</label>
+					<textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline bg-grey" id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
 			</div>
+
+		    <div class="flex items-center justify-center">
+		    	<label for="name">Submit</label>
+		      <button class="bg-grey-dark hover:bg-grey-darkest text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline bg-grey .h-200px" id="submit" type="button">
+		        Submit
+		      </button>
+		    </div>
+
+		  </form>
 		</div>
 	</main>
 <footer class="mx-auto py-8 text-center">
