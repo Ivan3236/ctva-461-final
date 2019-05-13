@@ -22,6 +22,14 @@
 	color:white;
 }
 
+
+/*----------About Us----------*/
+#about{ 
+  /*text-align:center;*/
+  background-color:black;
+  padding:1% 5%;
+}
+
 /*-----Video-------*/
 .video-title {
   background: #000;
